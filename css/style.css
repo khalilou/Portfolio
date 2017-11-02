@@ -1,0 +1,303 @@
+@font-face { 
+    font-family: 'times';
+    src: url('font/timesnewarial.ttf');
+}
+
+@font-face { 
+    font-family: 'calibri';
+    src: url('font/KGCompassionSimple.ttf');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+/*.container {
+    width: 750px;
+    margin: auto;
+}*/
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+.text-right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+p.justify {
+    font-size: 20px;
+}
+
+/* ----- Navigation -----*/
+nav {
+    float: right;
+    background-color: rebeccapurple;
+}
+
+ul li {
+    width: 130px;
+}
+
+ul li a {
+    color: #fff;
+    font-family: times;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: inherit;
+    color: white;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 50%; 
+  float: right;
+  margin-right: 50px;
+  margin-top: 120px;    
+
+}
+
+hr {
+    height: 2px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+blockquote {
+    margin-top: 130px;
+}
+
+blockquote p {
+    font-family: calibri;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+input.form-control {
+    border: 3px solid #5db13f;
+    margin-bottom: 30px;
+    background-color: #b6dfa3;
+}
+
+textarea.form-control {
+    border: 3px solid #5db13f;
+    margin-bottom: 30px;
+    background-color: #b6dfa3;
+}
+
+.btn {
+    background-color: red;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.violet {
+    background-color: #656599;
+}
+.section {
+    background-color: lightgrey;
+}
+footer img {
+	width: 25px;
+	height: 25px;
+}
+
+h1,h3 {
+    font-family: times;
+}
+
+/*---- Content -----*/
+
+/*
+p {
+    font-family: calibri;
+}
+article p {
+    width: 350px;
+    font-size: 17px;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+article img {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+.main {
+    background-color: #656599;
+    width: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 50%; 
+  float: right;
+  margin-right: 50px;
+
+}
+
+ h1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 25px;
+}
+
+.white {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.grey {
+    background-color: grey;
+    height: 2px;
+}
+
+.white img {
+    margin: 5px 5px 5px 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+    width: 250px;
+}
+
+input[placeholder] {
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-family: -webkit-pictograph;
+}
+textarea {
+    display: block;
+    background-color: inherit;
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+}
+
+textarea[placeholder] {
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-family: -webkit-pictograph;
+}
+
+form {
+    display: inline-block;
+    width: 300px;
+}
+
+.btn {
+    background-color: gray;
+    width: 50px;
+    margin-top: 20px;
+    border: none;
+}
+
+.test {
+    display: inline-block;
+    width: 300px;
+    float: right;
+    text-align: justify;
+    margin-right: 38px;
+}
+
+/*-----Footer-----*/
+.footer1 {
+    background-color: #656599;
+}
+
+.footer1 p {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: justify;
+    color: white;
+}
+
+.footer1 h3 {
+    margin: auto;
+    margin-left: 95px;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer1 img {
+    width: 25px;
+    height: 25px;
+}
+
+.event {
+    display: inline-block;
+    margin: 5px;
+    width: 340px;
+}
+
+.margin {
+        margin-top: 45px;   
+}
+
+ i {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+    margin-left: 10px;
+}
+
+a:hover i {
+    
+    background-color: #709963;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        float:left;
+    }
+    
+    #top-menu {
+        background-color: yellow;
+    }
+}
+    
